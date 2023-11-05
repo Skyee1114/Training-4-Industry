@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.font-racing {
+  font-family: 'Racing Sans One', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bk-home-img {
+  background-image: url('/img/home_background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.header-red-img {
+  background-image: url('/img/header-red-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-gray-img {
+  background-image: url('/img/header-gray-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-blue-img {
+  background-image: url('/img/header-blue-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-green-img {
+  background-image: url('/img/header-green-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.my-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.my-scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+}
+.my-scroll::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: rgba(0,0,0,0.2);
+}
+.my-scroll::-webkit-scrollbar-thumb:hover{
+  background: rgba(0,0,0,0.4);
+}
+.my-scroll::-webkit-scrollbar-thumb:active{
+  background: rgba(0,0,0,.9);
+}
+

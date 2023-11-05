@@ -1,0 +1,103 @@
+{
+    "groups": [
+        {
+            "name": "CCNSG",
+            "courses": [
+                {
+                    "name": "CCNSG National Safety passport",
+                    "code": "TC011055"
+                }
+            ] 
+        },        
+        {
+            "name": "FIRST AID",
+            "courses": [
+                {
+                    "name": "Emergency First Aid at Work Level 3",
+                    "code": "TC011038"
+                },
+                {
+                    "name": "First Aid at Work - Level 3 (AED Inc)",
+                    "code": "TC010480"
+                }
+            ] 
+        },
+        {
+            "name": "IPAF",
+            "courses": [
+                {
+                    "name": "IPAF 1B",
+                    "code": "TC011112"
+                },
+                {
+                    "name": "IPAF 3A & 3B",
+                    "code": "TC010860"
+                },
+                {
+                    "name": "IPAF 3A , 3B & 1B",
+                    "code": "TC010859"
+                },
+                {
+                    "name": "IPAF Harness & Inspection (HA,HU & HI)",
+                    "code": "TC009251"
+                }
+            ] 
+        },
+        {
+            "name": "OTHER TRAINING",
+            "courses": [
+                {
+                    "name": "CAT & Genny / Cable Avoidence",
+                    "code": "TC011096"
+                },
+                {
+                    "name": "NEBOSH General Certificate",
+                    "code": "TC010540"
+                },
+                {
+                    "name": "Abrasive Wheel & Safe Use of Steps & Ladders",
+                    "code": "TC011050"
+                }, 
+                {
+                    "name": "Work at Height / Harness Awareness / Abrasive Wheel",
+                    "code": "TC011048"
+                }
+            ] 
+        },
+        {
+            "name": "PASMA",
+            "courses": [
+                {
+                    "name": "PASMA Combined (Low Level & Std Towers)",
+                    "code": "TC009252"
+                },
+                {
+                    "name": "PASMA Tower For Users",
+                    "code": "TC011102"
+                },
+                {
+                    "name": "PASMA Work at Height",
+                    "code": "TC010861"
+                }
+            ] 
+        },
+        {
+            "name": "PLANT",
+            "courses": [
+                {
+                    "name": "Telehandler Refresher",
+                    "code": "TC011059"
+                },
+                {
+                    "name": "RTITB Counterbalance Novice",
+                    "code": "TC010869"
+                },
+                {
+                    "name": "Telehandler Novice",
+                    "code": "TC010818"
+                }
+            ] 
+        }     
+
+    ]
+}
